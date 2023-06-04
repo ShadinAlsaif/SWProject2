@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtRentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="Select Rent Date"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:drawableEndCompat="@drawable/baseline_calendar_month_24" />
+
+    <TextView
+        android:id="@+id/txtReturnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRentDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="Select Return Date"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:drawableEndCompat="@drawable/baseline_calendar_month_24" />
+
+</RelativeLayout>
+
